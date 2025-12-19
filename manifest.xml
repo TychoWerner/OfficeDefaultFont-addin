@@ -70,5 +70,3 @@
         <bt:String id="GroupDescription" DefaultValue="Applies Comic Sans on new message compose."/>
       </bt:LongStrings>
     </Resources>
-
-  </VersionOverrides  </VersionOverrides>
