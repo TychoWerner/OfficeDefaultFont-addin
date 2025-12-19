@@ -12,9 +12,9 @@
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="Comic Sans by default"/>
   <Description DefaultValue="Applies Comic Sans in new Outlook messages via event-based activation."/>
-  <IconUrl DefaultValue="https://YOUR-DOMAIN/assets/icon-32.png"/>
-  <HighResolutionIconUrl DefaultValue="https://YOUR-DOMAIN/assets/icon-64.png"/>
-  <SupportUrl DefaultValue="https://YOUR-DOMAIN/help"/>
+  <IconUrl DefaultValue="https://raw.githubusercontent.com/TychoWerner/OfficeDefaultFont-addin/refs/heads/main/icon-32.png"/>
+  <HighResolutionIconUrl DefaultValue="https://raw.githubusercontent.com/TychoWerner/OfficeDefaultFont-addin/refs/heads/main/icon-64.png"/>
+  <SupportUrl DefaultValue="https://tychowerner.nl/help"/>
 
   <Hosts>
     <Host Name="Mailbox"/>
@@ -56,12 +56,12 @@
 
     <Resources>
       <bt:Urls>
-        <bt:Url id="Runtime.Page.Url" DefaultValue="https://YOUR-DOMAIN/autorun.html"/>
-        <bt:Url id="Runtime.Script.Url" DefaultValue="https://YOUR-DOMAIN/launchevent.js"/>
+        <bt:Url id="Runtime.Page.Url" DefaultValue="https://raw.githubusercontent.com/TychoWerner/OfficeDefaultFont-addin/refs/heads/main/autorun.html"/>
+        <bt:Url id="Runtime.Script.Url" DefaultValue="https://raw.githubusercontent.com/TychoWerner/OfficeDefaultFont-addin/refs/heads/main/launchevent.js"/>
       </bt:Urls>
       <bt:Images>
-        <bt:Image id="Icon32" DefaultValue="https://YOUR-DOMAIN/assets/icon-32.png"/>
-        <bt:Image id="Icon64" DefaultValue="https://YOUR-DOMAIN/assets/icon-64.png"/>
+        <bt:Image id="Icon32" DefaultValue="https://raw.githubusercontent.com/TychoWerner/OfficeDefaultFont-addin/refs/heads/main/icon-32.png"/>
+        <bt:Image id="Icon64" DefaultValue="https://raw.githubusercontent.com/TychoWerner/OfficeDefaultFont-addin/refs/heads/main/icon-64.png"/>
       </bt:Images>
       <bt:ShortStrings>
         <bt:String id="GroupLabel" DefaultValue="Comic Sans Add-in"/>
